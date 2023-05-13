@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.aday1,
+.aday2,
+.aday3,
+.aday4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nametitle {
+  margin-top: 20px;
+}
+
+.imgaday {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-oy {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-oy:hover {
+  background-color: #2980b9;
+}
