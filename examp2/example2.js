@@ -5,3 +5,6 @@
 // sonuç çok oy alandan az oy alana doğru gösterilecek.
 
 // her aday için bir değişken
+
+const aday1 = 0;
+const aday2 = 0;
