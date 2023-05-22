@@ -8,10 +8,7 @@
   max-width: 800px;
 }
 
-.aday1,
-.aday2,
-.aday3,
-.aday4 {
+.aday {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -41,4 +38,21 @@
 
 .btn-oy:hover {
   background-color: #2980b9;
+}
+
+#resultsTable {
+  margin-top: 40px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resultsTable th,
+#resultsTable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#resultsTable th {
+  background-color: #f2f2f2;
 }
